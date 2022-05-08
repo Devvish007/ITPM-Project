@@ -169,7 +169,7 @@
 			<url-pattern>/Pdf_generate</url-pattern>
 		</servlet-mapping>
 
-		<!-- GALLERY - START -->
+		
 
 		<servlet>
 			<servlet-name> galleryLogin</servlet-name>
@@ -207,9 +207,7 @@
 			<url-pattern>/deletepaint</url-pattern>
 		</servlet-mapping>
 
-		<!-- GALLERY - END -->
-
-		<!-- beginning of Loch -->
+		
 		<servlet>
 			<servlet-name>insertRequest</servlet-name>
 			<servlet-class>art_Gallery.RequestServlet</servlet-class>
@@ -309,7 +307,7 @@
 			<url-pattern>/AddCustomer</url-pattern>
 		</servlet-mapping>
 		
-		<!-- gayashan -->
+		
 
 		<!-- <servlet>
        	<servlet-name>login</servlet-name>
@@ -322,14 +320,22 @@
          </servlet-mapping> -->
          
          <servlet>
-         		<servlet-name>deliveryInsert</servlet-name>
-         		<servlet-class>art_Gallery.DeliveryInsert</servlet-class>
-         </servlet>
-         
-         <servlet-mapping>
-         	<servlet-name>deliveryInsert</servlet-name>
-         	<url-pattern>/Deliveyinsert</url-pattern>
-         </servlet-mapping>
+    	<servlet-name>deliveryinsert</servlet-name>
+    	<servlet-class>com.DeliveryInsert</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>deliveryinsert</servlet-name>
+    	<url-pattern>/insert</url-pattern>
+    </servlet-mapping>
+    
+        <servlet>
+		<servlet-name>updatedelivery</servlet-name>
+		<servlet-class>com.UpdateDeliveryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updatedelivery</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
          
          <servlet>
          	<servlet-name>DeleteDelivery</servlet-name>
@@ -340,7 +346,7 @@
          	<servlet-name>DeleteDelivery</servlet-name>
          	<url-pattern>/delete</url-pattern>
          </servlet-mapping>
-		<!-- gayashanEnd -->
+		
     
     <!-- Ashan start -->
         <servlet>
@@ -357,7 +363,7 @@
           <servlet-name>deleteartist</servlet-name>
           <servlet-class>art_Gallery.ArtistDelete</servlet-class>
           </servlet>
-    <!-- Ashan End -->
+    
     
     <!-- Dev start -->
       <servlet>

@@ -6,8 +6,6 @@
 <meta charset="ISO-8859-1">
 <title>Home - Colorlib Fine Arts</title>
 
-     
-    <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/styles_Gallery.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
@@ -191,47 +189,19 @@ font-family: Qualy;
 </head>
 <body>
 
-	<!-- Navbar -->
-	<header class="header" class="py-5 mt-5">
-		<nav class="navbar navbar-expand-lg fixed-top py-3">
-			<div class="container">
-				<img alt="logo" src="./pictures/Logo.png" width="100" height="100">
-				<button type="button" data-toggle="collapse"
-					data-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent" aria-expanded="false"
-					aria-label="Toggle navigation"
-					class="navbar-toggler navbar-toggler-right">
-					<i class="fa fa-bars"></i>
-				</button>
-
-				<div id="navbarSupportedContent" class="collapse navbar-collapse">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active"><a href="#"
-							class="nav-link text-uppercase font-weight-bold">Home <span
-								class="sr-only"></span></a></li>
-						<li class="nav-item"><a href="EventAllRetriv.jsp"
-							class="nav-link text-uppercase font-weight-bold">About</a></li>
-							
-						<li class="nav-item"><a onclick="location.href = 'Servlet_Gallery_All'"
-							class="nav-link text-uppercase font-weight-bold">Gallery</a></li>
-
-							
-						<li class="nav-item"><a onclick="location.href = 'LoginRedirector'"
-							class="nav-link text-uppercase font-weight-bold">Log in</a></li>
-							
-							<li class="nav-item"><a onclick="location.href = 'add_customer.jsp'"
-							class="nav-link text-uppercase font-weight-bold">Sign up</a></li>
-
-							<li class="nav-item"><a onclick="location.href = 'ArtistLoginRedirector'"
-							class="nav-link text-uppercase font-weight-bold">Log in as an Artist</a></li>
-
-						<li class="nav-item"><a onclick="location.href = 'SpecialReqNavServlet'"
-							class="nav-link text-uppercase font-weight-bold">Contact US</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header><br><br><br>
+   <nav>
+	<div class="logo">
+    <a href="#"><img src="DeliveryImages/logo22.jpg" width="120px" height="52px"></a></div>
+            <ul>
+            <li><a onclick= "location.href='./index.jsp'">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Sign up</a></li>
+            <li><a href="#">Artist login</a></li>
+            <li><a href="#">Contact us</a></li>
+            </ul>
+         </nav><br><br><br>
          
          
          <!-- For demo purpose -->
