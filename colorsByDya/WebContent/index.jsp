@@ -1,171 +1,90 @@
-
-<%-- <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>index</title>
-
-</head>
-
-<body>
-<!-- Navbar -->
-<header class="header" class="py-5 mt-5">
-	<link rel="stylesheet" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" href="./css/styles.css">
-	<link rel="stylesheet" href="./css/home.css">
-	<script type="text/javascript" src="./js/jquery-3.3.1.slim.min.js"></script>
-	<script type="text/javascript" src="./js/script.js"></script>
-	<nav class="navbar navbar-expand-lg fixed-top py-3">
-		<div class="container">
-			<img alt="logo" src="./pictures/Logo.png" width="100" height="100">
-			<button type="button" data-toggle="collapse"
-				data-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent" aria-expanded="false"
-				aria-label="Toggle navigation"
-				class="navbar-toggler navbar-toggler-right">
-				<i class="fa fa-bars"></i>
-			</button>
-
-			<div id="navbarSupportedContent" class="collapse navbar-collapse">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a href="#"
-						class="nav-link text-uppercase font-weight-bold">Home <span
-							class="sr-only"></span></a></li>
-					<li class="nav-item"><a href="#"
-						class="nav-link text-uppercase font-weight-bold">About</a></li>
-					<li class="nav-item"><a href="#"
-						class="nav-link text-uppercase font-weight-bold">Gallery</a></li>
-					<li class="nav-item"><a href="./login_01.jsp"
-						class="nav-link text-uppercase font-weight-bold">Log in</a></li>
-					<li class="nav-item"><a href="#"
-						class="nav-link text-uppercase font-weight-bold">Contact US</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-</header>
-
-
-<!-- For demo purpose -->
-<div class="container">
-	<div class="pt-5 text-white">
-		<header class="py-5 mt-5">
-			<h1 class="display-4">This is test project</h1>
-			<p class="lead mb-0">Get ready gys this is the home page heshan
-				make this</p>
-			<p class="lead mb-0">
-				LEADER Miyuru
-				<!-- <a href="https://bootstrapious.com" class="text-white">
-                      <u>Bootstrapious</u></a> -->
-			</p>
-		</header>
-		<div class="py-5">
-			<p class="lead">
-				A- <strong class="font-weight-bold">We need your ideas.we
-					need a fixed colour </strong> if you have a any idea leave a comment in
-				discode group <strong class="font-weight-bold">recusandae </strong>placeat!
-				Voluptatum voluptate, ex modi illum quas nam distinctio.
-			</p>
-			<p class="lead">Lorem ipsum dolor sit amet, consectetur
-				adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-				exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-				esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-				cupidatat non proident, sunt in culpa qui officia deserunt mollit
-				anim id est laborum.</p>
-		</div>
-	</div>
-</div>
-
-</body>
-</html>
-
-
-======= --%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Home - Colors by Diyaa</title>
+<title>Home - Colorlib Fine Arts</title>
 
-<!-- <link rel="stylesheet" href="css/frontpage.css">  -->
-	
-	<link rel="stylesheet" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" href="./css/styles.css">
-	<link rel="stylesheet" href="./css/home.css">
-	
-	<link rel="stylesheet" href="styles_Gallery.css">
-	<style>
-	#tt {text-align: center;}
-</style>
-	
-</head>
-<body>
-	<!-- Navbar -->
-	<header class="header" class="py-5 mt-5">
-		<nav class="navbar navbar-expand-lg fixed-top py-3">
-			<div class="container">
-				<img alt="logo" src="./pictures/Logo.png" width="100" height="100">
-				<button type="button" data-toggle="collapse"
-					data-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent" aria-expanded="false"
-					aria-label="Toggle navigation"
-					class="navbar-toggler navbar-toggler-right">
-					<i class="fa fa-bars"></i>
-				</button>
+     
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/styles_Gallery.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    
+    
+<style>
 
-				<div id="navbarSupportedContent" class="collapse navbar-collapse">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active"><a href="#"
-							class="nav-link text-uppercase font-weight-bold">Home <span
-								class="sr-only"></span></a></li>
-						<li class="nav-item"><a href="#"
-							class="nav-link text-uppercase font-weight-bold">About</a></li>
-							
-						<li class="nav-item"><a onclick="location.href = 'Servlet_Gallery_All'"
-							class="nav-link text-uppercase font-weight-bold">Gallery</a></li>
-
-							
-						<li class="nav-item"><a onclick="location.href = 'LoginRedirector'"
-							class="nav-link text-uppercase font-weight-bold">Log in</a></li>
-							
-							<li class="nav-item"><a onclick="location.href = 'add_customer.jsp'"
-							class="nav-link text-uppercase font-weight-bold">Sign up</a></li>
-
-							<li class="nav-item"><a onclick="location.href = 'ArtistLoginRedirector'"
-							class="nav-link text-uppercase font-weight-bold">Log in as an Artist</a></li>
-
-						<li class="nav-item"><a onclick="location.href = 'SpecialReqNavServlet'"
-							class="nav-link text-uppercase font-weight-bold">Contact US</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
-
-
-	<!-- For demo purpose -->
-	<div class="container">
-		<div class="pt-5 text-white">
-			<div class="py-5 mt-5">
-				<h1 class="display-4" id="tt" st>Colors by Diyaa</h1>
-				
-			
-			<style>
 * {box-sizing:border-box}
+#tt {
+     text-align: center; 
+     font-family: Georgia, serif;
+     font-size: 45px;
+     background: -webkit-linear-gradient(#004e92 , black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+     }
+
 body {
-	font-family: Verdana,sans-serif;
-	/* //background-image:url("Images/art_gallery_wall_background_wallpaper.jpg"); */
+    
+    background-color: #05e4a2; 
+     background: -webkit-linear-gradient( #05e4a2, #185a9d); 
 }
+
+.logo{
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+nav{
+ width: 100%;
+ overflow: auto;
+ background-color: black;
+ /*background: #17a2b8;*/
+ filter: opacity(90%);
+ font-family: 'Quicksand', sans-serif;
+ }
+
+ 
+ul{
+ padding: 0;
+ margin: 0 0 0 700px;
+ list-style: none;
+ }
+	
+li{
+ float: left;
+ }
+ 
+li a{
+ width: 115px;
+ display: block;
+ padding: 20px 15px;
+ text-decoration: none;
+ font-weight: bold;
+ color: white;
+ text-align: center;
+ }
+ 
+li a:hover{
+ background: #6c757d; 
+ }
+
+body {
+    
+    background-color: #20c997;
+   
+}
+
+.gray{
+	color: #2b2b2b;
+}
+
 .mySlides {
 	display:none;
 	/* height: 1vw !important;  */
-	}
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -174,6 +93,18 @@ body {
   position: relative;
   margin: auto;
 }
+
+.container {
+  display: block;
+  flex-wrap: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.container1{
+  margin-left: 200px;
+  margin-right: 200px;
+ }
 
 /* Caption text */
 .text {
@@ -218,6 +149,28 @@ body {
   animation-name: fade;
   animation-duration: 1.5s;
 }
+    
+.gallery {
+  display: block;
+  flex-basis: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.lead{
+ font-size: 20px;
+ margin-left: 200px;
+ margin-right: 200px;
+ font-color: #ffffff;
+ font-family: Georgia, serif;
+}
+
+.h1{
+margin-left: 200px;
+font-size: 45px;
+font-family: Qualy;
+}
 
 @-webkit-keyframes fade {
   from {opacity: .4} 
@@ -228,35 +181,82 @@ body {
   from {opacity: .4} 
   to {opacity: 1}
 }
-
+ 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
-}
 </style>
 
+    
+</head>
+<body>
 
-<!-- <h2>Automatic Slideshow</h2>
+	<!-- Navbar -->
+	<header class="header" class="py-5 mt-5">
+		<nav class="navbar navbar-expand-lg fixed-top py-3">
+			<div class="container">
+				<img alt="logo" src="./pictures/Logo.png" width="100" height="100">
+				<button type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation"
+					class="navbar-toggler navbar-toggler-right">
+					<i class="fa fa-bars"></i>
+				</button>
+
+				<div id="navbarSupportedContent" class="collapse navbar-collapse">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a href="#"
+							class="nav-link text-uppercase font-weight-bold">Home <span
+								class="sr-only"></span></a></li>
+						<li class="nav-item"><a href="EventAllRetriv.jsp"
+							class="nav-link text-uppercase font-weight-bold">About</a></li>
+							
+						<li class="nav-item"><a onclick="location.href = 'Servlet_Gallery_All'"
+							class="nav-link text-uppercase font-weight-bold">Gallery</a></li>
+
+							
+						<li class="nav-item"><a onclick="location.href = 'LoginRedirector'"
+							class="nav-link text-uppercase font-weight-bold">Log in</a></li>
+							
+							<li class="nav-item"><a onclick="location.href = 'add_customer.jsp'"
+							class="nav-link text-uppercase font-weight-bold">Sign up</a></li>
+
+							<li class="nav-item"><a onclick="location.href = 'ArtistLoginRedirector'"
+							class="nav-link text-uppercase font-weight-bold">Log in as an Artist</a></li>
+
+						<li class="nav-item"><a onclick="location.href = 'SpecialReqNavServlet'"
+							class="nav-link text-uppercase font-weight-bold">Contact US</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header><br><br><br>
+         
+         
+         <!-- For demo purpose -->
+	<div class="container">
+		<div class="pt-5 text-white">
+			<div class="py-5 mt-5">
+				<h1 id="tt">Colorlib Fine Arts</h1>
+				<br><br>
+				
+				
+	<!-- <h2>Automatic Slideshow</h2>
 <p>Change image every 2 seconds:</p>
  -->
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-<!--   <div class="numbertext">1 / 3</div>
- -->  <img src="https://www.thechannels.org/wp-content/uploads/2016/09/MTWTsuno3-edit-1.jpg" style="width:100%;height:30vw">
-  
+ <img src="images/home1.jpg" style="width:100%; height:30vw">  
 </div>
 
 <div class="mySlides fade">
-  <!-- <div class="numbertext">2 / 3</div> -->
-  <img src="https://1.bp.blogspot.com/-r3YNBP3Cohk/Wa0p9Wjy9YI/AAAAAAAAkeM/OssgRUkyRv4J0duhN72SgM3q9NnZXWInQCLcBGAs/s1600/corey_barksdale_art.jpg" style="width:100% ;height:30vw">
-  
+  <img src="images/home4.jpg" style="width:100%; height:30vw">
 </div>
 
 <div class="mySlides fade">
-  <!-- <div class="numbertext">3 / 3</div> -->
-  <img src="images/1.jpg" style="width:100%;height:30vw">
-  
+  <img src="images/home3.jpg" style="width:100%; height:30vw"> 
 </div>
 
 </div>
@@ -267,7 +267,7 @@ body {
   <span class="dot"></span> 
   <span class="dot"></span> 
 </div>
-
+<br><br>
 <script>
 var slideIndex = 0;
 showSlides();
@@ -286,21 +286,58 @@ function showSlides() {
     }
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    setTimeout(showSlides, 2200); // Change image every 2 seconds
 }
 </script>
-			
-			<!-- //test slid show end -->
+
+<!-- //test slide show end -->
 			<div class="py-5">
-				<p class="lead"><strong class="font-weight-bold">Who are we</strong><br>Mr. Deepthi Wijewardena is a retired employee of Sri Lanka Telecom (SLT). A year ago, after his retirement, he restarted his hobby of painting and successfully held an exhibition. He plans to display his artworks and give a fair price for his creativity via an e-commerce system targeting both local and international buyers.<strong class="font-weight-bold"></strong></p>
+				<h1 class="h1">
+				<strong class="font-weight-bold">Who are we ?</strong></h1>
+				<p class="lead">
+				<br><b>We house an impressive selection of fine art to cater to different sensibilities and tastes. Discover our extensive fine art collection by browsing through our different collections...</b><strong class="font-weight-bold"></strong></p>
 				<p class="lead"></p>
+				<br><br><br>
 			</div>
 			
 		</div>
 	</div>
+	
+<p align="center" style="font-size:24px" ><b>- Featured Art Works -</b></p>
+
+<div class="container1">	
+<div class="gallery">
+    <img src="./image1/a.jpg" alt="nature" width="345" height="245">
+</div>
+<div class="gallery">
+    <img src="./image1/b.jpg" alt="lake" width="345" height="245">
+</div>
+<div class="gallery">
+    <img src="./image1/c.jpg" alt="war" width="345" height="245">
+</div>
+<div class="gallery">
+    <img src="./image1/d.jpg" alt="nature" width="345" height="245">
+</div>
+<div class="gallery">
+    <img src="./image1/e.jpg" alt="nature" width="345" height="245">
+</div>
+<div class="gallery">
+    <img src="./image1/f.jpg" alt="nature" width="345" height="245">
+</div>
+<div class="gallery">
+    <img src="./image1/g.jpg" alt="nature" width="345" height="245">
+</div>
+<div class="gallery">
+    <img src="./image1/h.jpg" alt="nature" width="345" height="245">
+</div>
+<div class="gallery">
+    <img src="./image1/i.jpg" alt="nature" width="345" height="245">
+</div></div>
+
 
 	
 	<script type="text/javascript" src="./js/jquery-3.3.1.slim.min.js"></script>
 	<script type="text/javascript" src="./js/script.js"></script>
+</div>
 </body>
 </html>
